@@ -4,9 +4,6 @@ import { expect, describe, it, beforeEach } from 'vitest'
 import { UserAlreadyExistsError } from './errors/user-already-exists-error'
 import { RegisterUseCase } from './register'
 
-// const usersRepository = new InMemoryUsersRepository()
-// const registerUseCase = new RegisterUseCase(usersRepository)
-
 let usersRepository: InMemoryUsersRepository
 let sut: RegisterUseCase
 
